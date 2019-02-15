@@ -12,7 +12,7 @@ Can be easily combined with a mobile app to provide real user experience of two 
 . As a result, every function is written as a self contained container ( Lambda Function ) and Can be accessed through a REST Api endpoint exposed by AWS Api gateway.  It is possible to update individual functions without affecting the others . Only thing the endpoints share is database. However, it is possible to run the app locally through the use of Serverless offline
 2. **TypeScript**:  The sourcecode is written using typescript `^2.2.2` through use of [Serverless TypeScript Plugin](https://github.com/prisma/serverless-plugin-typescript) 
 3. **MySQL + TypeORM :** Using MySQL / MariaDB as database Provider. On AWS , it uses RDS Service. TypeORM is used for entity modelling and can also be used to switch to other supported databases, such as MongoDB or Postgresql
-4. **Jest + Lambda Tester : ** [Jest](https://jestjs.io/)  is used for unit testing  and [Lambda Tester](https://www.npmjs.com/package/lambda-tester) is used for e2e api testing.  A working postman script is also provided here [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/cce9ddc8504fc6afbc27)
+4. **Jest + Lambda Tester :** [Jest](https://jestjs.io/)  is used for unit testing  and [Lambda Tester](https://www.npmjs.com/package/lambda-tester) is used for e2e api testing.  A working postman script is also provided here [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/cce9ddc8504fc6afbc27)
 
 
 It uses formatted console logging, because it works well with AWS CloudWatch Logging.
