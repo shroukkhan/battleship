@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e897594-099e-4c4c-9fc7-ead444f1189f" name="Default" comment="remove extra contents">
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="7e897594-099e-4c4c-9fc7-ead444f1189f" name="Default" comment="spelling fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/utilities-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/utilities-spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.circleci.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.sls_offline.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.sls_offline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utilities.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utilities.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,10 +111,11 @@
           <entry key="MD" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="gitkeep" value="3" />
+          <entry key="info" value="1" />
           <entry key="js" value="4" />
           <entry key="json" value="36" />
-          <entry key="ts" value="194" />
-          <entry key="yml" value="10" />
+          <entry key="ts" value="195" />
+          <entry key="yml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -129,29 +123,29 @@
           <entry key="JSON" value="33" />
           <entry key="JavaScript" value="4" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="TypeScript" value="194" />
-          <entry key="YAML" value="10" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="TypeScript" value="195" />
+          <entry key="YAML" value="11" />
           <entry key="tsconfig" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="MD" value="535" />
+          <entry key="MD" value="537" />
           <entry key="dummy" value="14" />
           <entry key="gitignore" value="11" />
           <entry key="gitkeep" value="50" />
           <entry key="json" value="75" />
           <entry key="ts" value="27384" />
-          <entry key="txt" value="262" />
+          <entry key="txt" value="294" />
           <entry key="yml" value="154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="74" />
-          <entry key="Markdown" value="535" />
-          <entry key="PLAIN_TEXT" value="337" />
+          <entry key="Markdown" value="537" />
+          <entry key="PLAIN_TEXT" value="369" />
           <entry key="TypeScript" value="27384" />
           <entry key="YAML" value="154" />
           <entry key="tsconfig" value="1" />
@@ -174,15 +168,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.sls_offline.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -195,8 +180,8 @@
         <entry file="file://$PROJECT_DIR$/README.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="415">
-                <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+              <first_editor relative-caret-position="171">
+                <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -242,25 +227,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appConfig.ts">
+        <entry file="file://$PROJECT_DIR$/lib/controllers/api.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="38" column="17" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="17" />
+            <state relative-caret-position="422">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+              <folding>
+                <element signature="e#0#76#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/db.ts">
+        <entry file="file://$PROJECT_DIR$/serverless.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-                <element signature="e#226#309#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="250">
+              <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coverage/lcov.info">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -458,7 +447,30 @@
             <path>
               <item name="BattleShip2" type="b2602c69:ProjectViewProjectNode" />
               <item name="BattleShip2" type="462c0819:PsiDirectoryNode" />
+              <item name="coverage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BattleShip2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BattleShip2" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BattleShip2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BattleShip2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BattleShip2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BattleShip2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BattleShip2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BattleShip2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -724,7 +736,7 @@
       <workItem from="1550056623752" duration="39000" />
       <workItem from="1550056689768" duration="45175000" />
       <workItem from="1550141510406" duration="2808000" />
-      <workItem from="1550196435058" duration="42207000" />
+      <workItem from="1550196435058" duration="43592000" />
     </task>
     <task id="LOCAL-00001" summary="added zone test">
       <created>1532349619089</created>
@@ -922,7 +934,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550243771855</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add documentation">
+      <created>1550249526309</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1550249526309</updated>
+    </task>
+    <task id="LOCAL-00030" summary="spelling fixes">
+      <created>1550249597972</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1550249597972</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -958,7 +984,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255534000" />
+    <option name="totallyTimeSpent" value="256919000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -982,17 +1008,17 @@
       <window_info id="Storybook" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49815693" weight="0.2891089" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64164007" visible="true" weight="0.3871287" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64164007" weight="0.3871287" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946752" weight="0.38118812" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.5277228" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.35835996" side_tool="true" visible="true" weight="0.3871287" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.29179978" side_tool="true" visible="true" weight="0.4881188" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.5970297" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.4623218" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.70873266" weight="0.4881188" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.7082002" visible="true" weight="0.4881188" />
       <window_info anchor="bottom" id="TypeScript" order="13" sideWeight="0.49946752" weight="0.4138614" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1087,8 +1113,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="added all dbs" />
-    <MESSAGE value="fixed db , added restaurant model" />
     <MESSAGE value="fixed db , added restaurant model .all test working so far" />
     <MESSAGE value="move access control to decorator function ( adminAccessOnly )" />
     <MESSAGE value="skip db sync in unit test. it is not needed" />
@@ -1112,7 +1136,9 @@
     <MESSAGE value="added ap route" />
     <MESSAGE value="tested with postman" />
     <MESSAGE value="remove extra contents" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove extra contents" />
+    <MESSAGE value="add documentation" />
+    <MESSAGE value="spelling fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="spelling fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1146,9 +1172,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.build/lib/utilities.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/__tests__/db-spec.ts" />
     <entry file="file://$PROJECT_DIR$/.build/lib/logger.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1366,13 +1389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serverless.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__scripts__/createSampleConfig.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1408,16 +1424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/api.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="e#0#76#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1524,11 +1530,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/api.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#0#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverless.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coverage/lcov.info">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="415">
-            <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <first_editor relative-caret-position="171">
+            <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
