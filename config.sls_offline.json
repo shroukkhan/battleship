@@ -1,0 +1,22 @@
+{
+  "isProduction": true,
+  "db": {
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "root",
+    "database": "battleship",
+    "synchronize": false,
+    "logging": false,
+    "entities": [
+      "lib/models/entities/**/*.js"
+    ],
+    "migrations": [
+      "lib/models/migrations/**/*.js"
+    ],
+    "subscribers": [
+      "lib/models/subscribers/**/*.js"
+    ]
+  }
+}

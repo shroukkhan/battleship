@@ -1,0 +1,26 @@
+{
+  "exclude": [
+    "node_modules",
+    ".build"
+  ],
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "strict": false,
+    "target": "es5",
+    "outDir": ".build",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    // needed for typeorm decorations
+    "lib": [
+      "es2017"
+    ],
+    "rootDir": "./",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless/UmbrellaCorpBd.zip
+.build
+config.sample.json
+ormProj/
+coverage/
+

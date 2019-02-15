@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7e897594-099e-4c4c-9fc7-ead444f1189f" name="Default" comment="tested with postman">
+      <change beforePath="$PROJECT_DIR$/__scripts__/createSampleConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__scripts__/syncProductionDb.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__scripts__/deployDb.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ormconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/UmbrellaCorpBd$ALL_TEST.dat" NAME="ALL TEST Coverage Results" MODIFIED="1532364613915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UmbrellaCorpBd$ZoneEntity_Logic_Test_Suite.dat" NAME="ZoneEntity Logic Test Suite Coverage Results" MODIFIED="1532349595879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BattleShip2$Game_Service_Test_Suite.dat" NAME="Game Service Test Suite Coverage Results" MODIFIED="1550222861920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UmbrellaCorpBd$RestaurantEntity_Logic_Test_Suite_Should_be_able_to_create_restaurant.dat" NAME="RestaurantEntity Logic Test Suite.Should be able to create restaurant Coverage Results" MODIFIED="1532622429142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UmbrellaCorpBd$RestaurantEntity_Logic_Test_Suite_Should_be_able_to_create_restaurant_Success___RESTAURANT.dat" NAME="RestaurantEntity Logic Test Suite.Should be able to create restaurant.Success - RESTAURANT Coverage Results" MODIFIED="1532625255181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UmbrellaCorpBd$restaurantLogic_spec_ts.dat" NAME="restaurantLogic-spec.ts Coverage Results" MODIFIED="1532936870729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BattleShip2$ALL_TEST.dat" NAME="ALL TEST Coverage Results" MODIFIED="1550233851560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BattleShip2$Game_Service_Test_Suite_Reset_Game_Suite.dat" NAME="Game Service Test Suite.Reset Game Suite Coverage Results" MODIFIED="1550222692860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UmbrellaCorpBd$CategoryEntity_Logic_Test_Suite.dat" NAME="CategoryEntity Logic Test Suite Coverage Results" MODIFIED="1532363120005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UmbrellaCorpBd$Db_Test_Suite_Should_be_able_create_initial_data.dat" NAME="Db Test Suite.Should be able create initial data Coverage Results" MODIFIED="1532362774907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UmbrellaCorpBd$Db_Test_Suite.dat" NAME="Db Test Suite Coverage Results" MODIFIED="1532362657809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UmbrellaCorpBd$RestaurantEntity_Logic_Test_Suite.dat" NAME="RestaurantEntity Logic Test Suite Coverage Results" MODIFIED="1533020313606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myAutoScrollFromSource" value="true" />
+    <option name="myElementSize" value="222" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-847863036">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TsLintLanguageService" value="14" />
+          <entry key="TypeScriptServerServiceImpl" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="json" value="76" />
+          <entry key="ts" value="16112" />
+          <entry key="txt" value="297" />
+          <entry key="yml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="76" />
+          <entry key="PLAIN_TEXT" value="297" />
+          <entry key="TypeScript" value="16112" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="10" />
+          <entry key="ts" value="173" />
+          <entry key="yml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="10" />
+          <entry key="TypeScript" value="173" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1216243263">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TsLintLanguageService" value="3" />
+          <entry key="TypeScriptServerServiceImpl" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="gitkeep" value="3" />
+          <entry key="js" value="4" />
+          <entry key="json" value="32" />
+          <entry key="ts" value="183" />
+          <entry key="yml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="30" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="TypeScript" value="183" />
+          <entry key="YAML" value="8" />
+          <entry key="tsconfig" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="14" />
+          <entry key="gitignore" value="11" />
+          <entry key="gitkeep" value="50" />
+          <entry key="json" value="40" />
+          <entry key="ts" value="27018" />
+          <entry key="txt" value="241" />
+          <entry key="yml" value="154" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="39" />
+          <entry key="PLAIN_TEXT" value="316" />
+          <entry key="TypeScript" value="27018" />
+          <entry key="YAML" value="154" />
+          <entry key="tsconfig" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__tests__/game-service-spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.circleci.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.sls_offline.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/utilities.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="153" column="29" selection-start-line="153" selection-start-column="29" selection-end-line="153" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/db.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#226#309#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appConfig.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serverless.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__tests__/api-controller-spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="34" selection-start-line="34" selection-end-line="38" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gameId,</find>
+      <find>coordinates</find>
+      <find>getGameStatus</find>
+      <find>].in</find>
+      <find>build</find>
+      <find>gameSt</find>
+      <find>ts.ts</find>
+      <find>getGameS</find>
+      <find>^</find>
+      <find>Please test with node.js versions:</find>
+      <find>export</find>
+      <find>index</find>
+      <find>close</find>
+      <find>lamp</find>
+      <find>getS</find>
+      <find>Stored shot :</find>
+      <find>Stored shot</find>
+      <find>attack s</find>
+      <find>game_id</find>
+      <find>game has</find>
+      <find>throw</find>
+      <find>reset</find>
+      <find>getG</find>
+      <find>getParameters</find>
+      <find>openConnection</find>
+      <find>Attempting to find game</find>
+      <find>53</find>
+      <find>&gt;</find>
+      <find>onodire</find>
+      <find>&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>address</replace>
+      <replace>2</replace>
+      <replace>discount</replace>
+      <replace>restaurant</replace>
+      <replace>user2</replace>
+      <replace>promotion</replace>
+      <replace>delete</replace>
+      <replace>unavailable</replace>
+      <replace>;</replace>
+      <replace>language</replace>
+      <replace>c</replace>
+      <replace>creditCard</replace>
+      <replace>menu</replace>
+      <replace>southeast-1</replace>
+      <replace>lib/models/entity/</replace>
+      <replace>lib/models/migration/</replace>
+      <replace>lib/models/subscribers/</replace>
+      <replace>lib/models/migrations/</replace>
+      <replace>lib/models/entities/</replace>
+      <replace>\&quot;subscribers\&quot;\: \[\n      \&quot;lib\/models\/subscribers\/\*\*\/\*\.ts\&quot;\n  \]</replace>
+      <replace />
+      <replace>battleship</replace>
+      <replace>=</replace>
+      <replace>]</replace>
+      <replace>public static readonly</replace>
+      <replace>shipCoordinates</replace>
+      <replace>message</replace>
+      <replace>*</replace>
+      <replace>root</replace>
+      <replace>else throw</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/lib/businessLogic</dir>
+      <dir>$PROJECT_DIR$/lib/entity</dir>
+      <dir>$PROJECT_DIR$/lib</dir>
+      <dir>$PROJECT_DIR$/node_modules/lambda-tester</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lib/handlers/zone.ts" />
+        <option value="$PROJECT_DIR$/lib/controllers/user.ts" />
+        <option value="$PROJECT_DIR$/ormconfig.json" />
+        <option value="$PROJECT_DIR$/lib/models/entity/shotEntityModel.ts" />
+        <option value="$PROJECT_DIR$/lib/models/entity/gameEntityModel.ts" />
+        <option value="$PROJECT_DIR$/__tests__/logger-spec.ts" />
+        <option value="$PROJECT_DIR$/__tests__/utilities-spec.ts" />
+        <option value="$PROJECT_DIR$/lib/migrations/.gitkeep" />
+        <option value="$PROJECT_DIR$/lib/subscribers/ShotsFiredSubscriber.ts" />
+        <option value="$PROJECT_DIR$/lib/models/interfaces/iShip.ts" />
+        <option value="$PROJECT_DIR$/lib/models/interfaces/iGame.ts" />
+        <option value="$PROJECT_DIR$/lib/models/constants.ts" />
+        <option value="$PROJECT_DIR$/lib/models/interfaces/iConstants.ts" />
+        <option value="$PROJECT_DIR$/lib/models/interfaces/iBattleShip.ts" />
+        <option value="$PROJECT_DIR$/lib/models/interfaces/iCruiser.ts" />
+        <option value="$PROJECT_DIR$/lib/models/interfaces/iDestroyer.ts" />
+        <option value="$PROJECT_DIR$/lib/logger.ts" />
+        <option value="$PROJECT_DIR$/lib/models/interfaces/constants.ts" />
+        <option value="$PROJECT_DIR$/lib/models/interfaces/iDeployShip.ts" />
+        <option value="$PROJECT_DIR$/lib/models/interfaces/iSubmarine.ts" />
+        <option value="$PROJECT_DIR$/lib/models/dateModels/Submarine.ts" />
+        <option value="$PROJECT_DIR$/lib/models/dateModels/BattleShip.ts" />
+        <option value="$PROJECT_DIR$/lib/models/dateModels/Cruiser.ts" />
+        <option value="$PROJECT_DIR$/lib/models/dateModels/iDestroyer.ts" />
+        <option value="$PROJECT_DIR$/lib/models/dateModels/Destroyer.ts" />
+        <option value="$PROJECT_DIR$/lib/models/dateModels/submarine.ts" />
+        <option value="$PROJECT_DIR$/lib/models/dateModels/destroyer.ts" />
+        <option value="$PROJECT_DIR$/lib/models/dateModels/cruiser.ts" />
+        <option value="$PROJECT_DIR$/appConfig.ts" />
+        <option value="$PROJECT_DIR$/lib/models/entities/shotEntityModel.ts" />
+        <option value="$PROJECT_DIR$/lib/models/subscribers/ShotsFiredSubscriber.ts" />
+        <option value="$PROJECT_DIR$/lib/models/subscribers/.gitkeep" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/lib/errorCodes.ts" />
+        <option value="$PROJECT_DIR$/lib/models/dateModels/iDeployShip.ts" />
+        <option value="$PROJECT_DIR$/lib/models/dateModels/iAttackShip.ts" />
+        <option value="$PROJECT_DIR$/lib/models/entities/shipEntityModel.ts" />
+        <option value="$PROJECT_DIR$/tslint.json" />
+        <option value="$PROJECT_DIR$/lib/utilities.ts" />
+        <option value="$PROJECT_DIR$/lib/models/dateModels/iGame.ts" />
+        <option value="$PROJECT_DIR$/serverless.yml" />
+        <option value="$PROJECT_DIR$/lib/controllers/api.ts" />
+        <option value="$PROJECT_DIR$/lib/models/entities/gameEntityModel.ts" />
+        <option value="$PROJECT_DIR$/__tests__/game-service-spec.ts" />
+        <option value="$PROJECT_DIR$/lib/db.ts" />
+        <option value="$PROJECT_DIR$/config.sls_offline.json" />
+        <option value="$PROJECT_DIR$/lib/services/gameService.ts" />
+        <option value="$PROJECT_DIR$/__tests__/api-controller-spec.ts" />
+        <option value="$PROJECT_DIR$/config.circleci.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="-1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BattleShip2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BattleShip2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/node_modules/tslint" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/versions/node/v6.10.3/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="typescript-compiler-editor-notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/models/interfaces" />
+      <recent name="$PROJECT_DIR$/lib/models" />
+      <recent name="$PROJECT_DIR$/lib/businessLogic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/models/subscribers" />
+      <recent name="$PROJECT_DIR$/lib/models/dateModels" />
+      <recent name="$PROJECT_DIR$/lib/models/entities" />
+      <recent name="$PROJECT_DIR$/__tests__" />
+      <recent name="$PROJECT_DIR$/lib/models/interfaces" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Jest.Api Controller Test.PUT /attack.[Failure] Should not be able to attack a non-ready game">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration name="ALL TEST" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/__tests__" />
+      <envs>
+        <env name="LAMBDA_TESTER_NODE_VERSION_CHECK" value="false" />
+      </envs>
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Api Controller Test.GET /get.[Success] Should be able to get current game state" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs>
+        <env name="LAMBDA_TESTER_NODE_VERSION_CHECK" value="false" />
+      </envs>
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/api-controller-spec.ts" />
+      <test-names>
+        <test-name value="Api Controller Test" />
+        <test-name value="GET /get" />
+        <test-name value="[Success] Should be able to get current game state" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Api Controller Test.PUT /attack.[Failure] Should not be able to attack a non-ready game" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs>
+        <env name="LAMBDA_TESTER_NODE_VERSION_CHECK" value="false" />
+      </envs>
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/api-controller-spec.ts" />
+      <test-names>
+        <test-name value="Api Controller Test" />
+        <test-name value="PUT /attack" />
+        <test-name value="[Failure] Should not be able to attack a non-ready game" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Api Controller Test.PUT /deploy.[Success] Should be able to deploy to a game" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs>
+        <env name="LAMBDA_TESTER_NODE_VERSION_CHECK" value="false" />
+      </envs>
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/api-controller-spec.ts" />
+      <test-names>
+        <test-name value="Api Controller Test" />
+        <test-name value="PUT /deploy" />
+        <test-name value="[Success] Should be able to deploy to a game" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Api Controller Test.PUT /ship.[Success] Should be able to deploy to a game" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs>
+        <env name="LAMBDA_TESTER_NODE_VERSION_CHECK" value="false" />
+      </envs>
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/api-controller-spec.ts" />
+      <test-names>
+        <test-name value="Api Controller Test" />
+        <test-name value="PUT /ship" />
+        <test-name value="[Success] Should be able to deploy to a game" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Game Service Test Suite" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs>
+        <env name="LAMBDA_TESTER_NODE_VERSION_CHECK" value="false" />
+      </envs>
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__tests__/game-service-spec.ts" />
+      <test-names>
+        <test-name value="Game Service Test Suite" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="" />
+      <envs>
+        <env name="LAMBDA_TESTER_NODE_VERSION_CHECK" value="false" />
+      </envs>
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.ALL TEST" />
+      <item itemvalue="Jest.Api Controller Test.GET /get.[Success] Should be able to get current game state" />
+      <item itemvalue="Jest.Api Controller Test.PUT /deploy.[Success] Should be able to deploy to a game" />
+      <item itemvalue="Jest.Api Controller Test.PUT /attack.[Failure] Should not be able to attack a non-ready game" />
+      <item itemvalue="Jest.Api Controller Test.PUT /ship.[Success] Should be able to deploy to a game" />
+      <item itemvalue="Jest.Game Service Test Suite" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Api Controller Test.PUT /attack.[Failure] Should not be able to attack a non-ready game" />
+        <item itemvalue="Jest.Api Controller Test.PUT /ship.[Success] Should be able to deploy to a game" />
+        <item itemvalue="Jest.Game Service Test Suite" />
+        <item itemvalue="Jest.Api Controller Test.PUT /deploy.[Success] Should be able to deploy to a game" />
+        <item itemvalue="Jest.Api Controller Test.GET /get.[Success] Should be able to get current game state" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e897594-099e-4c4c-9fc7-ead444f1189f" name="Default" comment="" />
+      <created>1532344308870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532344308870</updated>
+      <workItem from="1532344310306" duration="26896000" />
+      <workItem from="1532492155704" duration="133000" />
+      <workItem from="1532504272953" duration="15664000" />
+      <workItem from="1532531820135" duration="18976000" />
+      <workItem from="1532621042416" duration="1554000" />
+      <workItem from="1532624289206" duration="3551000" />
+      <workItem from="1532667394741" duration="10622000" />
+      <workItem from="1532926376574" duration="56695000" />
+      <workItem from="1533226788264" duration="11000" />
+      <workItem from="1533226828478" duration="2388000" />
+      <workItem from="1533236523446" duration="51000" />
+      <workItem from="1533645699153" duration="473000" />
+      <workItem from="1533649720657" duration="2356000" />
+      <workItem from="1534583256097" duration="9365000" />
+      <workItem from="1534779991564" duration="5507000" />
+      <workItem from="1535823174207" duration="2784000" />
+      <workItem from="1535904884509" duration="23000" />
+      <workItem from="1535910787315" duration="2613000" />
+      <workItem from="1536575447219" duration="68000" />
+      <workItem from="1547907033202" duration="737000" />
+      <workItem from="1548153383421" duration="879000" />
+      <workItem from="1548157332104" duration="1080000" />
+      <workItem from="1548162329941" duration="71000" />
+      <workItem from="1550022336952" duration="1264000" />
+      <workItem from="1550030054522" duration="73000" />
+      <workItem from="1550049863267" duration="1471000" />
+      <workItem from="1550056623752" duration="39000" />
+      <workItem from="1550056689768" duration="45175000" />
+      <workItem from="1550141510406" duration="2808000" />
+      <workItem from="1550196435058" duration="36307000" />
+    </task>
+    <task id="LOCAL-00001" summary="added zone test">
+      <created>1532349619089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532349619089</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finished adding category">
+      <created>1532363188461</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532363188461</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finished adding categories">
+      <created>1532364404777</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532364404777</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix db foreign key">
+      <created>1532366525056</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532366525056</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added all dbs">
+      <created>1532492215060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1532492215060</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed db , added restaurant model .all test working so far">
+      <created>1532510228370</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532510228370</updated>
+    </task>
+    <task id="LOCAL-00007" summary="move access control to decorator function ( adminAccessOnly )">
+      <created>1532532220626</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1532532220626</updated>
+    </task>
+    <task id="LOCAL-00008" summary="skip db sync in unit test. it is not needed">
+      <created>1532532663104</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1532532663104</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added orm config n migration shortcut to package.json">
+      <created>1532534929053</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1532534929053</updated>
+    </task>
+    <task id="LOCAL-00010" summary="run circli test in band">
+      <created>1532535047876</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1532535047876</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updated db create script to generate the credit card,language,facility and atmosphere data">
+      <created>1532537054744</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1532537054744</updated>
+    </task>
+    <task id="LOCAL-00012" summary="now need to work on restaurant menu relationship">
+      <created>1532578874132</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1532578874132</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fixed menu entity">
+      <created>1532610122120</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1532610122120</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add restaurant complete..somewhat">
+      <created>1532691831135</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1532691831135</updated>
+    </task>
+    <task id="LOCAL-00015" summary="TODO: &#10;- add/edit/delete promotion&#10;- add/edit/delete unavailable&#10;- add/edit/delete about&#10;- add/edit/delete menu&#10;- add/edit/delete managers&#10;&#10;- general editing ( like city,category etc )">
+      <created>1532971211554</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1532971211554</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Address ( city / cityArea ) NOT working in edit restaurant page ( updateByOwner )&#10;TODO: &#10;- add/edit/delete promotion&#10;- add/edit/delete unavailable&#10;- add/edit/delete about&#10;- add/edit/delete menu&#10;- add/edit/delete managers&#10;&#10;- general editing ( like city,category etc )">
+      <created>1533102141201</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1533102141201</updated>
+    </task>
+    <task id="LOCAL-00017" summary="TODO:  add/edit/delete managers of a restaurant&#10;&#10;TODO 1 :&#10;- add/edit/delete location        &lt;--done&#10;- add/edit/delete promotion       &lt;--done&#10;- add/edit/delete unavailable     &lt;--done&#10;- add/edit/delete about           &lt;--done&#10;- add/edit/delete menu            &lt;--done&#10;- add/edit/delete managers        &lt;-- DO ME&#10;- general editing ( like city,category etc ) &lt;--done">
+      <created>1534614686083</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1534614686083</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added method stubs for:&#10;  searchUsersToAddAsManagers&#10;  addManagerToRestaurant&#10;  addManagerToRestaurant&#10;&#10;TODO-1:  finish the upper functions along with tests&#10;&#10;&#10;TODO-2:  add/edit/delete managers of a restaurant">
+      <created>1534697153697</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1534697153697</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added method stubs for:&#10;  searchUsersToAddAsManagers &lt;--done and tested&#10;  addManagerToRestaurant &lt;--- done, ADD TEST&#10;  addManagerToRestaurant &lt;--- done, ADD TEST&#10;&#10;TODO-1:  finish the upper functions along with tests&#10;&#10;&#10;TODO-2:  add/edit/delete managers of a restaurant">
+      <created>1534790946806</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1534790946806</updated>
+    </task>
+    <task id="LOCAL-00020" summary="searchUsersToAddAsManagers &lt;--done and tested&#10;addManagerToRestaurant &lt;--- done, and tested&#10;addManagerToRestaurant &lt;--- done, and tested&#10;&#10;TODO: Integrate adding manager with the mobile app. ( so , dont program anyhting here, work on FooDoN Project/ mobile ap )">
+      <created>1535825854301</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1535825854301</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added deploy and create">
+      <created>1550131925376</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1550131925376</updated>
+    </task>
+    <task id="LOCAL-00022" summary="attaded attack , untested">
+      <created>1550134128366</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1550134128366</updated>
+    </task>
+    <task id="LOCAL-00023" summary="attaded attack , a bit tested">
+      <created>1550142110511</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1550142110511</updated>
+    </task>
+    <task id="LOCAL-00024" summary="added attack properly with test. now to add rest api on top">
+      <created>1550159841540</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1550159841540</updated>
+    </task>
+    <task id="LOCAL-00025" summary="finished full game logic. need to add REST api and E2E test using rest">
+      <created>1550207986351</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1550207986351</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added ap route">
+      <created>1550235264271</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1550235264271</updated>
+    </task>
+    <task id="LOCAL-00027" summary="tested with postman">
+      <created>1550242642674</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1550242642674</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Api_Controller_Test_PUT__deploy_[Success]_Should_be_able_to_deploy_to_a_game - 2019.02.15 at 19h 25m 32s.xml">
+      <configuration name="Api Controller Test.PUT /deploy.[Success] Should be able to deploy to a game" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Api_Controller_Test_PUT__deploy_[Success]_Should_be_able_to_deploy_to_a_game - 2019.02.15 at 19h 26m 14s.xml">
+      <configuration name="Api Controller Test.PUT /deploy.[Success] Should be able to deploy to a game" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Api_Controller_Test_PUT__deploy_[Success]_Should_be_able_to_deploy_to_a_game - 2019.02.15 at 19h 27m 49s.xml">
+      <configuration name="Api Controller Test.PUT /deploy.[Success] Should be able to deploy to a game" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Api_Controller_Test_PUT__attack_[Failure]_Should_not_be_able_to_attack_a_non-ready_game - 2019.02.15 at 19h 28m 04s.xml">
+      <configuration name="Api Controller Test.PUT /attack.[Failure] Should not be able to attack a non-ready game" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Api_Controller_Test_PUT__ship_[Success]_Should_be_able_to_deploy_to_a_game - 2019.02.15 at 19h 28m 43s.xml">
+      <configuration name="Api Controller Test.PUT /ship.[Success] Should be able to deploy to a game" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Api_Controller_Test_PUT__ship_[Success]_Should_be_able_to_deploy_to_a_game - 2019.02.15 at 19h 29m 06s.xml">
+      <configuration name="Api Controller Test.PUT /ship.[Success] Should be able to deploy to a game" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ALL_TEST - 2019.02.15 at 19h 30m 51s.xml">
+      <configuration name="ALL TEST" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Game_Service_Test_Suite - 2019.02.15 at 19h 58m 26s.xml">
+      <configuration name="Game Service Test Suite" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Api_Controller_Test_PUT__ship_[Success]_Should_be_able_to_deploy_to_a_game - 2019.02.15 at 21h 34m 16s.xml">
+      <configuration name="Api Controller Test.PUT /ship.[Success] Should be able to deploy to a game" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Api_Controller_Test_PUT__attack_[Failure]_Should_not_be_able_to_attack_a_non-ready_game - 2019.02.15 at 21h 38m 42s.xml">
+      <configuration name="Api Controller Test.PUT /attack.[Failure] Should not be able to attack a non-ready game" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="249634000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1920" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49710146" visible="true" weight="0.18690096" />
+      <window_info id="Structure" order="1" sideWeight="0.5028986" side_tool="true" weight="0.1569247" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Storybook" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49815693" weight="0.2891089" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64296997" weight="0.3871287" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38118812" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.5277228" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.35703" side_tool="true" weight="0.3980198" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.5970297" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.4623218" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.7098473" visible="true" weight="0.4009901" />
+      <window_info anchor="bottom" id="TypeScript" order="13" sideWeight="0.4997367" weight="0.4138614" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" x="-531" y="432" width="310" height="385" id="Coverage" order="8" sideWeight="0.5013405" side_tool="true" weight="0.25665602" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49710146" visible="true" weight="0.18690096" />
+      <window_info id="Structure" order="1" sideWeight="0.5028986" side_tool="true" weight="0.1569247" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Storybook" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49815693" weight="0.2891089" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64296997" weight="0.3871287" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38118812" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.5277228" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.35703" side_tool="true" weight="0.3980198" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.1960396" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.4623218" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.7098473" visible="true" weight="0.4009901" />
+      <window_info anchor="bottom" id="TypeScript" order="13" sideWeight="0.4997367" weight="0.4138614" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" x="-531" y="432" width="310" height="385" id="Coverage" order="8" sideWeight="0.5013405" side_tool="true" weight="0.25665602" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../saga-ui-2/src/containers/App/AppRouter.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="fix db foreign key" />
+    <MESSAGE value="added all dbs" />
+    <MESSAGE value="fixed db , added restaurant model" />
+    <MESSAGE value="fixed db , added restaurant model .all test working so far" />
+    <MESSAGE value="move access control to decorator function ( adminAccessOnly )" />
+    <MESSAGE value="skip db sync in unit test. it is not needed" />
+    <MESSAGE value="added orm config n migration shortcut to package.json" />
+    <MESSAGE value="run circli test in band" />
+    <MESSAGE value="updated db create script to generate the credit card,language,facility and atmosphere data" />
+    <MESSAGE value="now need to work on restaurant menu relationship" />
+    <MESSAGE value="fixed menu entity" />
+    <MESSAGE value="add restaurant complete..somewhat" />
+    <MESSAGE value="TODO: &#10;- add/edit/delete promotion&#10;- add/edit/delete unavailable&#10;- add/edit/delete about&#10;- add/edit/delete menu&#10;- add/edit/delete managers&#10;&#10;- general editing ( like city,category etc )" />
+    <MESSAGE value="Address ( city / cityArea ) NOT working in edit restaurant page ( updateByOwner )&#10;TODO: &#10;- add/edit/delete promotion&#10;- add/edit/delete unavailable&#10;- add/edit/delete about&#10;- add/edit/delete menu&#10;- add/edit/delete managers&#10;&#10;- general editing ( like city,category etc )" />
+    <MESSAGE value="TODO:  add/edit/delete managers of a restaurant&#10;&#10;TODO 1 :&#10;- add/edit/delete location        &lt;--done&#10;- add/edit/delete promotion       &lt;--done&#10;- add/edit/delete unavailable     &lt;--done&#10;- add/edit/delete about           &lt;--done&#10;- add/edit/delete menu            &lt;--done&#10;- add/edit/delete managers        &lt;-- DO ME&#10;- general editing ( like city,category etc ) &lt;--done" />
+    <MESSAGE value="added method stubs for:&#10;  searchUsersToAddAsManagers&#10;  addManagerToRestaurant&#10;  addManagerToRestaurant&#10;&#10;TODO-1:  finish the upper functions along with tests&#10;&#10;&#10;TODO-2:  add/edit/delete managers of a restaurant" />
+    <MESSAGE value="added method stubs for:&#10;  searchUsersToAddAsManagers &lt;--done and tested&#10;  addManagerToRestaurant &lt;--- done, ADD TEST&#10;  addManagerToRestaurant &lt;--- done, ADD TEST&#10;&#10;TODO-1:  finish the upper functions along with tests&#10;&#10;&#10;TODO-2:  add/edit/delete managers of a restaurant" />
+    <MESSAGE value="searchUsersToAddAsManagers &lt;--done and tested&#10;addManagerToRestaurant &lt;--- done, and tested&#10;addManagerToRestaurant &lt;--- done, and tested&#10;&#10;TODO: Integrate adding manager with the mobile app. ( so , dont program anyhting here, work on FooDoN Project/ mobile ap )" />
+    <MESSAGE value="added deploy and create" />
+    <MESSAGE value="attaded attack , untested" />
+    <MESSAGE value="attaded attack , a bit tested" />
+    <MESSAGE value="added attack properly with test. now to add rest api on top" />
+    <MESSAGE value="finished full game logic. need to add REST api and E2E test using rest" />
+    <MESSAGE value="added ap route" />
+    <MESSAGE value="tested with postman" />
+    <option name="LAST_COMMIT_MESSAGE" value="tested with postman" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/__tests__/businessLogic/userLogic-spec.ts</url>
+          <line>18</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/db.ts</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/db.ts</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/__tests__/businessLogic/restaurantLogic-spec.ts</url>
+          <line>49</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/utilities.ts</url>
+          <line>28</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/services/gameService.ts</url>
+          <line>65</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node_modules/typeorm/subscriber/EntitySubscriberInterface.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__scripts__/deployDb.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/migrations/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.build/lib/utilities.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__tests__/db-spec.ts" />
+    <entry file="file://$PROJECT_DIR$/.build/lib/logger.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__tests__/utilities-spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/logger.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/dateModels/iShip.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/dateModels/battleShip.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__tests__/logger-spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/dateModels/submarine.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/dateModels/constants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="3426" column="4" selection-start-line="3426" selection-start-column="4" selection-end-line="3426" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/dateModels/destroyer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/dateModels/cruiser.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/subscribers/ShotsFiredSubscriber.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/subscribers/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/errorCodes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/typeorm/entity-manager/EntityManager.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="214" column="36" lean-forward="true" selection-start-line="214" selection-start-column="36" selection-end-line="214" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/dateModels/iAttackShip.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/entities/shotEntityModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/aws-lambda/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/dateModels/iGame.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/entities/shipEntityModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.build/appConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/typeorm/driver/mongodb/typings.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="484" column="7" lean-forward="true" selection-start-line="484" selection-start-column="7" selection-end-line="484" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/lambda-tester/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/lambda-tester/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/entities/gameEntityModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/dateModels/iDeployShip.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/typeorm/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="174" column="24" selection-start-line="174" selection-start-column="24" selection-end-line="174" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/typeorm/connection/BaseConnectionOptions.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/api.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#0#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/services/gameService.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="63" column="27" lean-forward="true" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/db.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#226#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__tests__/api-controller-spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="34" selection-start-line="34" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.production.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__tests__/game-service-spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverless.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__scripts__/createSampleConfig.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utilities.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="153" column="29" selection-start-line="153" selection-start-column="29" selection-end-line="153" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appConfig.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.sample.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.sls_offline.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ormconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.circleci.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>SOURCE_CODE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

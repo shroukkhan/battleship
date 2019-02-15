@@ -1,0 +1,51 @@
+service: BattleShip
+
+
+plugins:
+- serverless-plugin-typescript
+- serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  iamRoleStatements:
+  - Effect: Allow
+    Action: ['s3:*']
+    Resource: '*'
+  stage: exam
+  region: ap-southeast-1
+  versionFunctions: false
+
+
+functions:
+  get:
+    handler: lib/controllers/api.get
+    events:
+    - http:
+        path: /api/
+        method: get
+        cors: true
+
+  reset:
+    handler: lib/controllers/api.reset
+    events:
+    - http:
+        path: /api/reset
+        method: post
+        cors: true
+
+  ship:
+    handler: lib/controllers/api.ship
+    events:
+    - http:
+        path: /api/ship
+        method: put
+        cors: true
+
+  attack:
+    handler: lib/controllers/api.attack
+    events:
+    - http:
+        path: /api/attack
+        method: put
+        cors: true
