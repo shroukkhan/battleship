@@ -12,7 +12,9 @@ import Utilities from './utilities';
 class Db {
     private connection?: Connection;
 
-
+    /**
+     * Close existing connection to database and cleanup any resources
+     */
     public async closeConnection(): Promise<void> {
         try {
             if (this.connection && this.connection.isConnected) {
@@ -23,6 +25,10 @@ class Db {
         }
     }
 
+    /**
+     * Open a connection to the database. If sychrnoize is used, it will force the database to sync with the entity files
+     * @param synchronize
+     */
     public async openConnection(synchronize?: boolean): Promise<Connection> {
         const fncName = 'Db.openConnection';
 
@@ -57,7 +63,7 @@ class Db {
                 migrations,
                 subscribers,
                 logging: !global.__TEST__ && !appConfig.isProduction,
-                synchronize: synchronize ? synchronize : false
+                synchronize: synchronize ? synchronize : false,
             });
             Logger.info(fncName, 'Creating connection with options : ', connectionOptionsUpdated);
             this.connection = await createConnection(connectionOptionsUpdated);
@@ -70,6 +76,8 @@ class Db {
         } else {
             Logger.info(fncName, 'Connection was already opened');
         }
+
+
         return this.connection;
     }
 

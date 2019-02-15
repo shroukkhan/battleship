@@ -3,7 +3,7 @@ node_modules
 jspm_packages
 
 # Serverless directories
-.serverless/UmbrellaCorpBd.zip
+.serverless/battleship.zip
 .build
 config.sample.json
 ormProj/

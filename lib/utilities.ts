@@ -1,4 +1,3 @@
-import * as fs from 'fs';
 import * as path from 'path';
 import * as R from 'ramda';
 import AppConfig from '../appConfig';
@@ -119,52 +118,6 @@ export default class Utilities {
         Utilities.appConfig = config;
         return config;
     }
-
-
-    /**
-     * Save content into file
-     * @param {string} filePath
-     * @param {string} content
-     */
-    public static filePutContents = (filePath: string, content: string): void => {
-        try {
-            const p = path.parse(filePath);
-            const targetDir = p.dir;
-            const sep = path.sep;
-            const initDir = path.isAbsolute(targetDir) ? sep : '';
-            targetDir.split(sep).reduce((parentDir, childDir) => {
-                const curDir = path.resolve(parentDir, childDir);
-                if (!fs.existsSync(curDir)) {
-                    fs.mkdirSync(curDir);
-                }
-                return curDir;
-            }, initDir);
-
-            fs.writeFileSync(filePath, content);
-        } catch (e) {
-            Logger.warn(
-                '[UTIL] Failed to write to ' + filePath + ' error happened : ',
-                e
-            );
-        }
-    }
-
-
-    /**
-     * Get contents from file
-     * @param {string} filePath
-     * @returns {string | null}
-     */
-    public static fileGetContents = (filePath: string): string | null =>
-        Utilities.fileExists(filePath) ? fs.readFileSync(filePath).toString() : null
-
-    /**
-     * Check if file exists
-     * @param {string} filePath
-     * @returns {boolean}
-     */
-    public static fileExists = (filePath: string): boolean =>
-        fs.existsSync(filePath)
 
 
     private static appConfig?: typeof AppConfig;

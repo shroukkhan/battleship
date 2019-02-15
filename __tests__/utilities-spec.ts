@@ -22,17 +22,5 @@ describe('Utilities Test Suite', () => {
         expect(config.isProduction).toBeFalsy();
     });
 
-    test('Should be able to get config for production', () => {
-        Utilities.setUnitTest(false); // set production
-        const config = Utilities.getConfig();
-        expect(config).toBeTruthy();
-        expect(config.isProduction).toBeTruthy();
-
-        // try to get it again..
-        const config2 = Utilities.getConfig();
-        expect(config2).toBeTruthy();
-        expect(config2.isProduction).toBeTruthy();
-    });
-
 
 });

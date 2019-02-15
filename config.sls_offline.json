@@ -10,12 +10,15 @@
     "synchronize": false,
     "logging": false,
     "entities": [
+      "lib/models/entities/**/*.ts",
       "lib/models/entities/**/*.js"
     ],
     "migrations": [
+      "lib/models/migrations/**/*.ts",
       "lib/models/migrations/**/*.js"
     ],
     "subscribers": [
+      "lib/models/subscribers/**/*.ts",
       "lib/models/subscribers/**/*.js"
     ]
   }

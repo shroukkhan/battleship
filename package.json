@@ -1,8 +1,8 @@
 {
-  "name": "umbrella-corp-bd",
+  "name": "battleship",
   "version": "2.0.0",
   "main": "handler.js",
-  "repository": "git@github.com:shroukkhan/UmbrellaCorpBd.git",
+  "repository": "git@github.com:shroukkhan/battleship.git",
   "author": "Shrouk Khan <shroukkhan@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -25,16 +25,16 @@
     "tslint-config-prettier": "^1.13.0"
   },
   "scripts": {
-    "test": "jest --silent",
+    "test": "LAMBDA_TESTER_NODE_VERSION_CHECK=false jest --silent",
     "test:circleci": "NODE_ENV=circleci jest --runInBand --silent --coverage",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --silent --coverage",
+    "test:watch": "LAMBDA_TESTER_NODE_VERSION_CHECK=false jest --watch",
+    "test:coverage": "LAMBDA_TESTER_NODE_VERSION_CHECK=false jest --silent --coverage",
     "build": "tsc --pretty ; cp config.* ./.build/",
     "createConfig": "ts-node ./__scripts__/createSampleConfig.ts",
-    "db:sync": "mysqladmin -f -uroot -proot0987 -hbattleship.ctmmz6dc2hbs.ap-southeast-1.rds.amazonaws.com drop  battleship ; mysqladmin -uroot -proot0987 -hbattleship.ctmmz6dc2hbs.ap-southeast-1.rds.amazonaws.com create  battleship; ts-node ./__scripts__/syncProductionDb.ts",
     "db:migration:create": "typeorm migration:create -n ",
     "db:migration:create:help": "echo create migration like this: arn db:migration:create migration_name",
-    "db:sync:local": "mysqladmin -f -uroot -proot  drop  battleship ; mysqladmin -uroot -proot  create  battleship; NODE_ENV=sls_offline ts-node ./__scripts__/syncProductionDb.ts",
+    "db:deploy": "NODE_ENV=sls_offline ts-node ./__scripts__/deployDb.ts",
+    "db:sync": "mysqladmin -f -uroot -proot drop  battleship ; mysqladmin -uroot -proot  create  battleship; NODE_ENV=sls_offline ts-node ./__scripts__/deployDb.ts",
     "sls:offline": "cp config.* ./.build/ ; NODE_ENV=sls_offline yarn serverless offline start --host 0.0.0.0 --port 3000 ",
     "sls:deploy": "cp config.* ./.build/  ; serverless deploy"
   },
